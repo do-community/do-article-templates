@@ -1,10 +1,12 @@
 # Use Title Case for all Titles
 
-## Introduction
+### Introduction
 
-Introductory paragraph
+Introductory paragraph.
 
 In this guide, you will learn how to ...
+
+When you're finished, you'll be able to...
 
 ## Prerequisites
 
@@ -15,24 +17,29 @@ Before you begin this guide you'll need the following:
 - <OS and OS Version> Droplet
 - A non-root user with sudo privileges (<insert link to Initial Server Setup article for the OS used in this tutorial>) explains how to set this up.)
 - (Optional) If software such as Nginx needs to be installed, link to the proper article describing how to install it
+- List any other accounts needed, such as Github or other services.
 
 All the commands in this tutorial should be run as a non-root user. If root access is required for the command, it will be preceded by `sudo`. 
 
 ## Step 1 — Title Case
 
-transition/introduction
+Introduction to the step. What are we going to do?
 
-content
+Content. Here are examples.
 
-## Markdown Examples
+Here's a command someone types in the Terminal:
 
 ```command
 sudo nano /etc/nginx/sites-available/default
 ```
 
+Here's a custom prefix:
+
 ```custom_prefix(>)
 exit
 ```
+
+Here's a configuration file with a label:
 
 ```
 [label /etc/nginx/sites-available/default]
@@ -51,6 +58,8 @@ server {
 }
 ```
 
+Here's output from a command:
+
 ```
 [secondary_label Output]
 Could not connect to Redis at 127.0.0.1:6379: Connection refused
@@ -61,6 +70,8 @@ This is a <^>variable<^>.
 This is `inline code`.
 
 This is an `<^>in-line code variable<^>`
+
+Use `<^>your_server_ip<^>` when referencing the IP of the server.  Use `111.111.111.111` and `222.222.222.222` if you need other IP addresses in examples.
 
 This text is **bold**.
 
@@ -89,6 +100,17 @@ Lists are simple:
 - Item 1
 - Item 2
 - Item 3
+
+
+Now transition to the next section.
+
+## Step 2 — Title Case
+
+Another introduction
+
+Your content
+
+Transition. 
 
 ## Conclusion
 

@@ -1,6 +1,6 @@
 # How To <Task> with <Software> on <Distro>
 
-## Introduction
+### Introduction
 
 This section should include two or three paragraphs. The first two paragraphs should include (but are not limited to) a brief introduction to the topic, a basic description of the technologies being used, and why the reader would want to read the article.
 
@@ -14,17 +14,20 @@ You can include an optional **Goals** section if your tutorial has a complicated
 
 Introduce your prerequisites with a sentence or several paragraphs, as needed. Always use a bulleted list. Always include what type of Droplet is needed. This includes the operating system, the OS version, and any minimum resource requirements. Always use a non-root sudo user throughout your article unless the command must be executed by a specific user or by the root user.
 
+Prerequisites should be things we need before we start. Look for existing DO articles on these prerequisites and link to them whenever possible.
+
 Before you begin this guide you'll need the following:
 
 - <OS and OS Version> Droplet
 - A non-root user with sudo privileges (<insert link to Initial Server Setup article for the OS used in this tutorial>) explains how to set this up.)
 - (Optional) If software such as Nginx needs to be installed, link to the proper article describing how to install it
+- List any other accounts needed, such as Github or other services.
 
 All the commands in this tutorial should be run as a non-root user. If root access is required for the command, it will be preceded by `sudo`. 
 
 ## Step 1 — Installing Some Cool Package
 
-Always start each section with a transition/introductory sentence or paragraph. It is helpful to remind the reader of what has been accomplished already and what the goal of the current step is.
+Always start each section with a transition/introductory sentence or paragraph. It is helpful to tell the reader what the goal of the current step is. Be careful not to repeat the wording of the step though.
 
 If possible, the article should be organized into sequential steps. Try to use the "ing" form of the verb for the section titles. The section titles should have a consistent style to them: **Step 1 — Installing Some Cool Package**, **Step 2 — Configuring Some Cool Package**, **Step 3 — Securing Some Cool Package**, etc.
 
@@ -135,6 +138,11 @@ Lists are simple:
 - Item 1
 - Item 2
 - Item 3
+
+## Transitions
+
+At the end of each step, try to transition to the next step in the process whenever possible. It's helpful to remind the reader of what has been accomplished already and let them know what's ahead.  Steps that end with output or code snippets seem like they end abruptly. A single sentence that wraps up the step and moves to the next part helps the reader move forward. 
+It's helpful to remind the reader of what has been accomplished already and let them know what's ahead.
 
 ## Conclusion
 
