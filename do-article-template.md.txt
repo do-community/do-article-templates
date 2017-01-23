@@ -43,7 +43,7 @@ Before you begin this guide you'll need the following:
 
 ## Step 1 — Doing Something
 
-<!-- For more information on steps, see https://do.com/style/#steps -->
+<!-- For more information on steps, see https://do.co/style/#steps -->
 
 Introduction to the step. What are we going to do and why are we doing it?
 
