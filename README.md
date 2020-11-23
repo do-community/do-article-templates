@@ -1,6 +1,6 @@
 # do-article-templates — DigitalOcean Community Article Templates
 
-Please use these templates in addition to our [style guide](do.co/style) to help you create articles for the DigitalOcean community. 
+Please use these templates in addition to our [style guide](https://do.co/style) to help you create articles for the DigitalOcean community. 
 
 Choose the template that best fits the kind of content you're creating:
 
