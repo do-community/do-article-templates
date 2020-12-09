@@ -1,5 +1,5 @@
 <!--
-This is an article template you can use as a starting point when writing DigitalOcean procedural tutorials about software development. This template is great for Python, JavaScript, or other softwar development tutorials that readers would follow.  Once you've reviewed the template, delete the comments and begin writing your outline or article. You'll find some examples of our custom Markdown at the very bottom of the template.
+This is an article template you can use as a starting point when writing DigitalOcean procedural tutorials about software development. This template is great for Python, JavaScript, or other software development tutorials that readers would follow.  Once you've reviewed the template, delete the comments and begin writing your outline or article. You'll find some examples of our custom Markdown at the very bottom of the template.
 
 As you write, refer to our style and formatting guidelines for more detailed explanations:
 
@@ -121,7 +121,7 @@ Open the file `public/index.htm` in your editor.
 <!-- When showing the contents of a file, try to show only the relevant parts and explain what needs to change. -->
 
 
-Modify the title by changning the contents of the `<title>` tag:
+Modify the title by changing the contents of the `<title>` tag:
 
 ```js
 [label public/index.html]
@@ -220,7 +220,7 @@ Here's a file full of code.  The label on the first line lets you clearly state 
       This HTML file is a template.
       If you open it directly in the browser, you will see an empty page.
 
-      You can add webfonts, meta tags, or analytics to this file.
+      You can add web fonts, meta tags, or analytics to this file.
       The build step will place the bundled scripts into the <body> tag.
 
       To begin the development, run `npm start` or `yarn start`.
